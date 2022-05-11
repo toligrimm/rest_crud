@@ -29,6 +29,10 @@ final String noteID;
               child: ElevatedButton(
                 child: const Text('Add'),
                 onPressed: () {
+                  if (isEditing) {
+                  } else {
+
+                  }
                   Navigator.of(context).pop();
                 },
               ),
