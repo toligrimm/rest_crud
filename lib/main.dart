@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'crud rest',
       theme: ThemeData(primarySwatch: Colors.pink),
       home: NoteList(),
